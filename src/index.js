@@ -139,3 +139,6 @@ app.get('/', (req, res) => {
 app.get('/dashboard', (req, res) => {
     res.send(`Bienvenido ${req.body.email} Listo para tomar su orden`)
 })
+app.get('/contacto', (req, res) => {
+    res.send(`que pex xd`)
+})
